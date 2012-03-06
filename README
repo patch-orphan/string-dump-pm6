@@ -1,0 +1,24 @@
+NAME
+    String::Dump - Dump strings of characters for printing and debugging
+
+SYNOPSIS
+        use String::Dump <dump-hex dump-oct>;
+
+        say 'hex: ', dump-hex($string);
+        say 'oct: ', dump-oct($string);
+
+DESCRIPTION
+    When debugging or reviewing strings containing non-ASCII or non-printing
+    characters, String::Dump is your friend. It provides simple functions to
+    return a dump of the characters or bytes of your string in several
+    different formats, such as hex, octal, decimal, and more.
+
+AUTHOR
+    Nick Patch <patch@cpan.org>
+
+COPYRIGHT AND LICENSE
+    © 2011–2012 Nick Patch
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

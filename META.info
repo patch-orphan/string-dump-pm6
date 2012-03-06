@@ -1,0 +1,8 @@
+{
+    "name"        : "String::Dump",
+    "version"     : "*",
+    "description" : "Dump strings of characters for printing and debugging",
+    "depends"     : [],
+    "source-type" : "git",
+    "source-url"  : "git://github.com/patch/string-dump-pm6.git"
+}
